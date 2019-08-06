@@ -1,0 +1,17 @@
+<div class="content">
+    <div class="movie" [ngStyle]="{'background-image': 'url(./assets/images/movie-covers/' + movie.img + ')'}">
+    </div>
+    <div class="description">
+        <div class="title">Названия фильма</div>
+        <div class="desc">{{movie.name}}</div>
+        <div class="title">Описание</div>
+        <div class="desc">{{movie.description}}</div>
+        <div class="title">Рейтинг</div>
+        <div class="desc">{{movie.rate}}</div>
+        <div class="title">Длительность</div>
+        <div class="desc">{{movie.length}}</div>
+        <div class="title">Жанр</div>
+        <div class="desc">{{movie.genres.join(', ')}}</div>
+    </div>
+</div>
+<movies-list [moviesList]="similarMovies"></movies-list>

@@ -1,0 +1,10 @@
+<div class="wrapper-search">
+    <input type="text" class="search-input" (keyup)="getSearch($event)" (change)="getSearch($event)"
+        placeholder="Поиск" />
+</div>
+<div class="movies-list">
+    <div class="movie-item" *ngFor="let movie of moviesList"
+        [ngStyle]="{'vi': 'url(./assets/images/movie-covers/' + movie.img + ')'}">
+        <movie-item [movie]="movie"></movie-item>
+    </div>
+</div>

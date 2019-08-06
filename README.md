@@ -1,27 +1,49 @@
-# FrootMovies
+## Сценарий:
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.4.
+Вы решили создать веб приложение-каталог фильмов. Приложение будет основано на Angular.
 
-## Development server
+### В приложении должны присутствовать такие функции как:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- **Каталог фильмов**
+  * Список
+  * Поиск
+  * При нажатии на определенный фильм, открыть страницу *карточка фильма*
+- **Карточка фильма**
+  * Детали выбранного фильма
+  * Список фильмов с тем же жанром, что и у выбранного фильма.
 
-## Code scaffolding
+У всех страниц должны быть правильны пути, обновление страницы и кнопка "назад" должны работать как ожидается.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+#### Необходимые знания:
 
-## Build
+- [Angular](https://angular.io/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Rxjs](https://github.com/ReactiveX/rxjs)
+- [Sass](http://sass-lang.com/)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Разрешено использовать любые сторонние библиотеки.
 
-## Running unit tests
+#### Дополнительные баллы
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* Фильтрация по жанру
+* Приятный дизайн
+* Адаптивная верстка (очень приветствуется flexbox)
+* Анимации
 
-## Running end-to-end tests
+Если проект будет готов и в хорошем состоянии до окончания заявленого времени - разрешено добавлять собственные фичи, свистелки и дуделки.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+#### Приложения
 
-## Further help
+- В данном репозитории вы найдете папку ***content*** которая содержит необходимые данные:
+  * Mock данные со списком фильмов.
+  * Изображения фильмов.
+  * Минимальная модель для списка фильмов.
+- Разрешено пользоваться и изменять предоставленные данные на свое усмотрение.
+  
+#### Ожидаемый результат
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- Рабочее приложение
+- Исходный код должен быть предоставлен ссылкой на Git, Stash или Bitbucket репозиторий.
+- Предоставить README файл в корневой папке проекта.
+  * Общая информация о фичах и приложении в общем.
+  * Необходимые команды чтобы запустить приложение

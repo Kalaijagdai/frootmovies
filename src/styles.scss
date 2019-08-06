@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background-image: radial-gradient(506px at 50.6% 16.5%, rgb(239, 252, 250) 5.5%, rgb(223, 231, 234) 100.2%);
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
